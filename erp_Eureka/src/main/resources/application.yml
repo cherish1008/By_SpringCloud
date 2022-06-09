@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: erp-Eureka
+  security: #启用安全认证
+    user:
+      name: admin
+      password: 1008
+  profiles:
+    active: master
+eureka:
+  client:
+    register-with-eureka: false #不需要见自己注册到服务中心
+    fetch-registry: false # 关闭检索
+

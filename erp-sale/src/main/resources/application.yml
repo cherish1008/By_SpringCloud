@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: erp-sale
+server:
+  port: 5001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:1008@localhost:8761/eureka
+  instance:
+    instance-id: localhost:${server.port}
+logging:
+  level:
+    com.by.remote: debug
+

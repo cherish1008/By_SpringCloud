@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="erp-system" />
+        <module name="erp-plan" />
+        <module name="erp-sale" />
+        <module name="erp_stock" />
+        <module name="erp_Eureka" />
+        <module name="erp-sdk" />
+        <module name="erp_order" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="erp-plan" options="-parameters" />
+      <module name="erp-sale" options="-parameters" />
+      <module name="erp-sdk" options="-parameters" />
+      <module name="erp-system" options="-parameters" />
+      <module name="erp_Eureka" options="-parameters" />
+      <module name="erp_order" options="-parameters" />
+      <module name="erp_stock" options="-parameters" />
+    </option>
+  </component>
+</project>

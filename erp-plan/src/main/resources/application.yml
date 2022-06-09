@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: erp-plan
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:1008@localhost:8761/eureka
+server:
+  port: 4001

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: erp-system
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:1008@localhost:8761/eureka #注册到 eureka服务中心
+server:
+  port: 3001
